@@ -4,7 +4,8 @@ from itertools import product
 seq1 = [
 
 
-[6, 12, 23, 34, 39, 50],
+
+
 
 
 ]
@@ -12,7 +13,8 @@ seq1 = [
 seq2 = [
 
 
-[6, 12, 23, 34, 39, 50],
+
+
 
 ]
 # Lista para armazenar os pares de sequências encontrados
