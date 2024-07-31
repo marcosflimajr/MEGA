@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b621a41-bd28-413b-9705-89e16df671a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Criador de Numeros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quadras+Comuns.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHECAGEM.py" beforeDir="false" afterPath="$PROJECT_DIR$/CHECAGEM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHECAGEM3.py" beforeDir="false" afterPath="$PROJECT_DIR$/CHECAGEM3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checagem2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Checagem2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProblemaTecnico.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemaTecnico.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
     "Python.Criador de Numeros.executor": "Run",
     "Python.Estatisticas.executor": "Run",
     "Python.ProblemaTecnico.executor": "Run",
+    "Python.Quadras+Comuns.executor": "Run",
     "Python.Todas as possiveis sequencias.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -54,7 +50,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.CHECAGEM3">
+  <component name="RunManager" selected="Python.Quadras+Comuns">
     <configuration name="CHECAGEM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MEGA" />
       <option name="ENV_FILES" value="" />
@@ -143,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Estatisticas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Quadras+Comuns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MEGA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,7 +152,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estatisticas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Quadras+Comuns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Quadras+Comuns" />
         <item itemvalue="Python.CHECAGEM3" />
         <item itemvalue="Python.Checagem2" />
         <item itemvalue="Python.CHECAGEM" />
         <item itemvalue="Python.Criador de Numeros" />
-        <item itemvalue="Python.Estatisticas" />
       </list>
     </recent_temporary>
   </component>
