@@ -2,8 +2,8 @@ from itertools import combinations
 from collections import Counter
 
 def obter_combinacoes_de_4(lista):
-    """Gera todas as combinações consecutivas de 4 números de uma lista."""
-    return [tuple(lista[i:i+4]) for i in range(len(lista) - 3)]
+    """Gera todas as combinações possíveis de 4 números a partir de uma lista."""
+    return list(combinations(lista, 4))
 
 # Lista de números com datas no formato desejado
 numeros = [
@@ -2773,7 +2773,7 @@ comb_datas = {}
 
 # Processando cada lista de números
 for i, (numeros_lista, data) in enumerate(numeros):
-    # Obter combinações de 4 números consecutivos da lista atual
+    # Obter todas as combinações possíveis de 4 números da lista atual
     combinacoes_atual = obter_combinacoes_de_4(numeros_lista)
 
     # Atualizar o contador com as combinações da lista atual
@@ -2808,8 +2808,20 @@ for i, (numeros_lista, data) in enumerate(numeros):
 # Identificando as combinações mais comuns
 mais_comuns = comb_count.most_common()
 
-# Mostrando o resultado
+
+# Mostrando os primeiros 1000 resultados
+def mostrar_resultados(results, limite=21000):
+    """Mostra os resultados até o limite especificado e pergunta se o usuário deseja continuar."""
+    for i, (comb, _) in enumerate(results[:limite]):
+        datas = ', '.join(sorted(comb_datas[comb]))  # Ordenar datas para uma visualização mais clara
+        print(f"Combinação: {comb}, Datas: {datas}")
+
+    if len(results) > limite:
+        continuar = input("Deseja continuar vendo mais resultados? (s/n): ")
+        if continuar.lower() == 's':
+            mostrar_resultados(results[limite:], limite)
+
+
+# Exibir os resultados
 print("Combinações de 4 números mais comuns (independente da ordem):")
-for comb, _ in mais_comuns:
-    datas = ', '.join(sorted(comb_datas[comb]))  # Ordenar datas para uma visualização mais clara
-    print(f"Combinação: {comb}, Datas: {datas}")
+mostrar_resultados(mais_comuns)
