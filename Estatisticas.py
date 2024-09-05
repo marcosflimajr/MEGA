@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 
 # Substitua esta variável pelos seus dados
 dados_sorteios = [
+
+    ([7, 13, 17, 33, 41, 58], '30/07/2024'),
     ([10, 14, 44, 55, 56, 58], '27/07/2024'),
     ([6, 26, 31, 46, 52, 55], '25/07/2024'),
     ([4, 15, 24, 40, 44, 47], '23/07/2024'),
